@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h2>Assessment Form</h2>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    <!-- Add the specific form fields for your assessment here. -->
+{% endblock %}
