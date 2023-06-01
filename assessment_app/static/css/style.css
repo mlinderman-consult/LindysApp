@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #000080; /* Navy Blue */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #000080; /* Navy Blue */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+/* Main Content Styles */
+main {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000080; /* Navy Blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Survey/Assessment Styles */
+.survey-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.survey-item {
+    margin-bottom: 20px;
+}
+
+.survey-item label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.survey-item input,
+.survey-item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.survey-item button {
+    background-color: #000080; /* Navy Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.survey-item button:hover {
+    background-color: #0000cd; /* Medium Blue */
+}
